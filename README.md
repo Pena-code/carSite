@@ -1,0 +1,1 @@
+A simple web application for a car dealership, where users can browse, and view details about various cars available for sale. The project is built using the Spring MVC framework for the backend, Thymeleaf for rendering HTML views, Tomcat as the servlet container, and Maven as the build and dependency management tool.
