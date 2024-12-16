@@ -15,13 +15,6 @@ public class CarController {
 
     CarService carService;
 
-    /*@Autowired
-    public CarController(CarService carService){
-        this.carService = carService;
-    }
-
-     */
-
     @RequestMapping(method = RequestMethod.GET, path = { "/", "", "/carsite"})
     public String getCarList(Model model){
         List<Car> carList = new ArrayList<>();
